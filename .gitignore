@@ -1,4 +1,4 @@
-# Ignoring verifications files, keys and isos
+# Ignoring common: verifications files, keys and isos
 */*.md5
 */*.gpg
 */*.iso
@@ -9,6 +9,14 @@
 */MD5SUMS*
 */SHA1SUMS*
 */SHA256SUMS*
+
+# Ignoring Gentoo
+gentoo/*md5sum
+gentoo/*gpgsig
+gentoo/*umd5sum
+gentoo/CONTENTS
+gentoo/DIGESTS
+gentoo/.asc
 
 # exception to the rule
 !*/.gitkeep
