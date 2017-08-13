@@ -67,7 +67,7 @@
             echo '<img src="/include/img/distros/' . $img . '.png" alt="" title="" /></a>';
             echo '</div><div class="alt"><a href="/' . $element . '">' . $title . '</a></div></div>';
 
-            if ($count >= 4 + rand(0, 4)) {
+            if ($count >= 4 + rand(0, 2)) {
                 $count = 0;
                 echo '<br/>';
             }
