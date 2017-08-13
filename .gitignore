@@ -9,3 +9,6 @@
 */MD5SUMS*
 */SHA1SUMS*
 */SHA256SUMS*
+
+# exception to the rule
+!*/.gitkeep
