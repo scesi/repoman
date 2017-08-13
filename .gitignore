@@ -1,0 +1,11 @@
+# Ignoring verifications files, keys and isos
+*/*.md5
+*/*.gpg
+*/*.iso
+*/*.list
+*/*.manifest
+*/*.zsync
+*/*.metalink
+*/MD5SUMS*
+*/SHA1SUMS*
+*/SHA256SUMS*
