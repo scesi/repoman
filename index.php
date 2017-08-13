@@ -37,8 +37,8 @@
             'ubuntu'     => array('title' => 'Ubuntu'),
             'uremix'     => array('title' => 'Uremix'),
             'manjaro'    => array('title' => 'Manjaro Linux'),
-	    'trisquel'   => array('title' => 'Trisquel GNU/Linux'),
-	    'elementary' => array('title' => 'elementary OS'),
+            'trisquel'   => array('title' => 'Trisquel'),
+            'elementary' => array('title' => 'elementary OS'),
         );
 
         foreach ($directories as $directory) {
