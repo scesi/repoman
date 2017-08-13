@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>repositorios de software libre</title>
+        <title>Repositorios de software libre</title>
         <link rel="stylesheet" href="/include/css/style.css" type="text/css" />
         <link rel="stylesheet" href="/include/css/frontpage.css" type="text/css" />
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -36,12 +36,19 @@
             'slackware'  => array('title' => 'Slackware'),
             'ubuntu'     => array('title' => 'Ubuntu'),
             'uremix'     => array('title' => 'Uremix'),
+            'manjaro'    => array('title' => 'Manjaro'),
         );
 
         foreach ($directories as $directory) {
             if (is_dir("$path/$directory")) {
-                if ($directory <> '.' && $directory <> '..' && 
-                    $directory <> 'lost+found' && $directory <> 'include' && $directory <> 'logs') {
+                if ($directory <> '.' && 
+                    $directory <> '..' && 
+                    $directory <> 'lost+found' && 
+                    $directory <> 'include' && 
+                    $directory <> '.git' && 
+                    $directory <> 'node_modules' && 
+                    $directory <> 'logs') {
+                    
                     $list[] = $directory;
                 }
             }
